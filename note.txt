@@ -1,0 +1,13 @@
+tạo repository: git init 
+
+khi khởi động thành công local repo => hiện folder ẩn .git
+
+cách kết nối remote và local repo 
+git remote add origin https://github.com/IrisGlen/Demo_git.git
+(url đường dẫn tới source code trên remote)
+
+cách bước đẩy code lên remote:
+B1: đẩy các file có sự thay đổi
+- git add "tên file" (từng file)
+- git add . (đẩy hết file có sự thay đổi)
+- git status: check đã add chưa
