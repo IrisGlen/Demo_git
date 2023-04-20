@@ -9,5 +9,17 @@ git remote add origin https://github.com/IrisGlen/Demo_git.git
 cách bước đẩy code lên remote:
 B1: đẩy các file có sự thay đổi
 - git add "tên file" (từng file)
-- git add . (đẩy hết file có sự thay đổi)
-- git status: check đã add chưa
+- git add . (đẩy hết file có sự thay đổi) hay dung cach nay hon 
+
+- git status: check đã add chưa?
+- git reset: đảo ngược lại việc thêm file thay đổi lên staging area 
+
+B2: commit code & ghi chú
+- git commit -m "lan dau tien day code"
+lệnh kiểm tra đã commit thành công chưa:
+- git log
+
+B3: đẩy code lên
+- lần đầu: git push -u origin tên nhánh
+
+- những lần sau: git push -u origin
