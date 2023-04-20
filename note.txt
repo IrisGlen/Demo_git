@@ -19,7 +19,30 @@ B2: commit code & ghi chú
 lệnh kiểm tra đã commit thành công chưa:
 - git log
 
-B3: đẩy code lên
+B3: đẩy code lên:
 - lần đầu: git push -u origin tên nhánh
-
 - những lần sau: git push -u origin
+
+lấy source từ trên remote về:
+git clone + đường dẫn thư mục dự án https
+
+khi có sự thay đổi code từ remote 
+- git pull
+
+git stash: trả về code lần gần nhất (test chức năng mới nhưng sợ ảnh hưởng tới code cũ đang có)
+
+các bc tạo nhánh
+-git branch +tên nhánh
+
+kiểm tra các nhánh đang có (màu xanh là hiện diện)
+-git branch
+
+chuyển nhánh
+-git checkout +ten nhanh muốn chuyển tới
+
+vừa tạo mới + vừa chuyển nhánh mới
+git checkout -b +tên nhánh 
+
+git -m "message"
+đẩy code lên kèm tên nhánh chưa được tạo trên remote
+git push -u origin devB
